@@ -1,9 +1,10 @@
 package hackerrank.medium.search
 
+import scala.annotation.tailrec
 import scala.collection.mutable
 
 //https://www.hackerrank.com/challenges/knightl-on-chessboard/problem
-object KnightLonaChessboard extends App {
+object KnightLonaChessboard {
 
   final case class KnightL(a: Int, b: Int, n: Int) {
     def bingo(r: Int, c: Int): Boolean = n == r && n == c
@@ -20,6 +21,7 @@ object KnightLonaChessboard extends App {
         (r - b, c + a)).filter { case (r, c) => r >= 0 && r <= n && c >= 0 && c <= n }.distinct
   }
 
+  @tailrec
   def bfs(knight: KnightL, queue: mutable.Queue[(Int, Int, Int)], visited: Set[(Int, Int)]): Int =
     LazyList
       .unfold(queue.isEmpty)(s => if (s) None else Some((queue.dequeue(), queue.isEmpty)))
