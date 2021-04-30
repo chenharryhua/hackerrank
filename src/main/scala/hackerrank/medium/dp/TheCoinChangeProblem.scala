@@ -1,7 +1,7 @@
 package hackerrank.medium.dp
 
 // https://www.hackerrank.com/challenges/coin-change/problem
-object TheCoinChangeProblem extends App {
+object TheCoinChangeProblem {
 
   def go(n: Int, denom: Int, denoms: List[Int], cache: Map[(Int, Int), Long]): (Long, Map[(Int, Int), Long]) =
     denoms match {
