@@ -1,7 +1,7 @@
 package hackerrank.medium.search
 
 // https://www.hackerrank.com/challenges/xor-quadruples/problem
-object BeautifulQuadruples extends App {
+object BeautifulQuadruples {
   val MaxV = 5000
   val MaxN = 3001
 
