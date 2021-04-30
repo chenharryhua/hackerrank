@@ -4,7 +4,7 @@ import scala.collection.immutable.TreeSet
 
 // https://www.hackerrank.com/challenges/unbounded-knapsack/problem
 
-object Knapsack extends App {
+object Knapsack {
 
   def unboundedKnapsack(k: Int, arr: Array[Int]): Int = {
     val set = arr.flatMap(x => LazyList.from(1).map(y => x * y).takeWhile(_ <= k))
