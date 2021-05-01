@@ -2,6 +2,7 @@ package hackerrank.medium.bit
 
 import scala.collection.immutable.TreeSet
 
+// https://www.hackerrank.com/challenges/counter-game/problem
 object Countergame {
 
   def counterGame(n: Long): String = {
