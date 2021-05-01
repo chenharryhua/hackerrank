@@ -1,7 +1,7 @@
 package hackerrank.medium.bit
 
 // https://www.hackerrank.com/challenges/aorb/problem
-object AorB extends App {
+object AorB {
 
   def aOrB(k: Int, a: String, b: String, c: String) {
     val asr = BigInt(a, 16).toString(2).toCharArray.map(_ - 48)
