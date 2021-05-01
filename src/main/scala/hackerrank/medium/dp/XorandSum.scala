@@ -1,7 +1,7 @@
 package hackerrank.medium.dp
 
 // https://www.hackerrank.com/challenges/xor-and-sum/problem
-object XorandSum {
+object XorandSum extends App {
 
   def xorAndSum(a: String, b: String): Long = {
     val aa = BigInt(Integer.parseInt(a, 2))

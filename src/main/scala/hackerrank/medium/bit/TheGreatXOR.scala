@@ -1,4 +1,4 @@
-package hackerrank.medium
+package hackerrank.medium.bit
 
 // https://www.hackerrank.com/challenges/the-great-xor/problem
 object TheGreatXOR {
