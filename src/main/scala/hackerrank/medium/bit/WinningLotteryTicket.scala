@@ -3,7 +3,7 @@ package hackerrank.medium.bit
 import better.files._
 
 // https://www.hackerrank.com/challenges/winning-lottery-ticket/problem
-object WinningLotteryTicket extends App {
+object WinningLotteryTicket {
 
   def winningLotteryTicket(tickets: Array[String]): Long = {
     val frequency = Array.ofDim[Long](1024)
