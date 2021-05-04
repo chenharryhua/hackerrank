@@ -1,4 +1,4 @@
-package hackerrank.medium
+package hackerrank.medium.recursion
 
 object CrosswordPuzzle {
 

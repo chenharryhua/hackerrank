@@ -6,7 +6,7 @@ import better.files._
 
 // A ^ B = (A + B) - 2 * (A & B)
 
-object XorandSum extends App {
+object XorandSum {
   val M: Long = 1000000007L
   val S: Int  = 314159 + 1
 

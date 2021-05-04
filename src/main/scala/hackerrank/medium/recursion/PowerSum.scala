@@ -1,4 +1,4 @@
-package hackerrank.medium
+package hackerrank.medium.recursion
 
 // https://www.hackerrank.com/challenges/the-power-sum/problem
 object PowerSum {

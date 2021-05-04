@@ -1,6 +1,7 @@
-package hackerrank.medium
+package hackerrank.medium.recursion
 
-object SuperDigital {
+// https://www.hackerrank.com/challenges/recursive-digit-sum/problem
+object RecursiveDigitSum {
 
   def superDigit(n: String, k: Int): Int = {
     def go(s: String): Int =
